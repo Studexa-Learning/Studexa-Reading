@@ -1,0 +1,54 @@
+ONEREADER V8 - YOUR READING SPACE
+11 October 2026
+
+UPLOAD
+Replace the files in your existing OneReader website with the contents of OneReader-v8.zip.
+The ZIP is flat: index.html belongs at the root of the OneReader site.
+Keep using your existing school link, domain and Supabase project.
+Upload every file from this ZIP, including reader-space.css, book-art.png and reading-corner.png.
+OneHome and OneMaths do not need replacing.
+
+DATABASE
+This is a website update on top of OneHome v7.
+If you have already run all eight v7 SQL files, there is NO new SQL to run.
+If v7 is not yet installed, complete those eight numbered SQL files first.
+No new content answer keys, tables or authentication settings are included in this update.
+Google/Microsoft sign-in still depends on the providers being enabled in Supabase.
+
+WHAT IS NEW
+- Personal purple reading space, illustrated covers and cosy buddy corner.
+- The corner uses each student's actual saved buddy name, species and owned outfit layers.
+- Four page backgrounds: lilac, sage, peach and sky.
+- Three visual room moods: woodland dusk, moonlight and golden morning.
+- Optional simple view with fewer decorations.
+- Appearance and reading comfort save to the student's account.
+- Proper keyboard-accessible joke and hint dialogs, with Escape to close.
+- Joke topic choices and an "Another one" button, using the existing curated joke collection.
+- Free question-specific hints and reading guidance without spending points.
+- Reading comfort live preview, three presets, text size, line spacing, letter spacing, fonts, colours, page width, break reminders and optional celebrations.
+- Underline and focus-strip reading guides; move with the pointer or focus the text and use Up/Down.
+- Focus view hides the reading sidebar.
+- Saved, reading-now and finished bookshelf views.
+- Surprise-me picker chooses from books available to that student.
+- Save up to six favourite passages per book, with a private thought and a return-to-page button.
+- Existing private notes and reflections stay together in the notebook.
+- Mobile layout places the reading corner directly below the current book.
+- Existing homework, GCSE material, points, rewards, teachers, messaging and Sunday restrictions are retained.
+- No OneScience.
+
+NOTES
+The room and selected cover artwork are original generated illustrations.
+The buddy uses existing lightweight character illustrations so all 24 species and outfits remain functional.
+The room mood choices recolour the same illustrated room.
+The sample preview uses demonstration data; names, progress and points come from actual accounts on the live site.
+This update does not contain the licensed An Inspector Calls script; the original study guide is retained.
+
+PREVIEW
+After hosting, open index.html?demo=1&student=1 for the student demonstration.
+Open the normal existing school link for real accounts.
+Opening index.html directly from Windows without a web server will not load the app.
+
+CHECKS
+Tested in Microsoft Edge locally: account preference persistence, buddy rename/species, joke cycling, saving books, live comfort preview, keyboard guide, reading hints, saved passages and page return, checkpoint hint, focus mode, random book picker, mobile overflow and teacher planner.
+Existing content assets and database files are unchanged.
+Live deployment and production sign-in have not been performed.

@@ -1,5 +1,5 @@
 (() => {
- const app=document.getElementById('app'), entry=document.currentScript.dataset.entry||'home.mjs', version='studexa-2';
+ const app=document.getElementById('app'), entry=document.currentScript.dataset.entry||'home.mjs', version='reading-studio-1';
  let settled=false;
  const ready=()=>!!app.querySelector('.sx-topbar,.sx-topbar,.ui-header,#signin,.login');
  const show=message=>{
